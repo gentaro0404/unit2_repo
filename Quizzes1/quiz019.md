@@ -1,19 +1,37 @@
-# Quiz010
+# Quiz019
 
-## Create a function that receives as input a stering and reaturns the string ciphered with shift 13.
-
+## Create a function that changes the vowels in a string to numbers such as a=4,e=3,i=1,o=0 and space by _
 ## :program
 ```.py
-import math
+def get_l3tt3r(msg: str):
+    out = ""
+    for letter in msg:
+        if letter.lower() == "a":
+            out += "4"
+        elif letter.lower() == "e":
+            out += "3"
+        elif letter.lower() == "i":
+            out += "1"
+        elif letter.lower() == "o":
+            out += "0"
+        elif letter.lower() == " ":
+            out += "_"
+        else:
+            out += letter
+    return out
 
-number = int(input("Enter a number: "))
-x = -12
 
+# METHOD 2
+def get_l3tt3r2(msg: str):
+    out = ""
+    letters = {"a": "4", "e": "3", "i": "1", "o": "0", " ": "_"}
+    for letter in msg:
+        if letter.lower() in letters:
+            out += letters[letter.lower()]
+        else:
+            out += letter
+    return out
 
-while -12<=x<=15:
-    power = math.pow(10, x)
-    print(f"{number} * 10^{x} = {number*power}")
-    x += 1
 
 ```
 
