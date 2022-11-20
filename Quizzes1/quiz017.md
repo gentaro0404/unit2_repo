@@ -21,7 +21,7 @@ print(averageLength(stringList４))
 ```
 
 ## Fig.1
-![](quiz017.png)
+![]()
 
 ##Flowchart:
 ![](quiz017_flow.JPG)
