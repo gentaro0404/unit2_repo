@@ -1,24 +1,22 @@
 # Quiz010
 
-## Create a function that receives as input a stering and reaturns the string ciphered with shift 13.
+## Create a program that produces n random values from the equation below,where m snd s are the other inputs of the function.
 
 ## :program
 ```.py
-import math
 
-number = int(input("Enter a number: "))
-x = -12
+import random
+random.seed(1234)
+def produce(n:5, m=3, s=2):
+    for i in range(n):
+        x = random.randint(0,100)
+        print(x,x**(1/2*(m/s)**2))
 
-
-while -12<=x<=15:
-    power = math.pow(10, x)
-    print(f"{number} * 10^{x} = {number*power}")
-    x += 1
-
+produce(5,3,2)
 ```
 
 ## Fig.1
-![](quiz010.png)
+![](quiz022.png)
 
 ##Flowchart:
 ![](quiz010_flow.JPG)
