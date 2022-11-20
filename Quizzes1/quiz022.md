@@ -1,4 +1,4 @@
-# Quiz010
+# Quiz022
 
 ## Create a program that produces n random values from the equation below,where m snd s are the other inputs of the function.
 
