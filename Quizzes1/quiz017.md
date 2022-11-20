@@ -1,24 +1,22 @@
-# Quiz010
+# Quiz017
 
-## Create a function that receives as input a stering and reaturns the string ciphered with shift 13.
+## Create a function that produces the average word length of the input list
 
 ## :program
 ```.py
-import math
 
-number = int(input("Enter a number: "))
-x = -12
+def averageLength():
+    return sum([len(i.strip()) for i in stringList]) / len(stringList)
 
 
-while -12<=x<=15:
-    power = math.pow(10, x)
-    print(f"{number} * 10^{x} = {number*power}")
-    x += 1
+stringList = ["Hello", "main"]
+print(averageLength())
+
 
 ```
 
 ## Fig.1
-![](quiz010.png)
+![](quiz017.png)
 
 ##Flowchart:
-![](quiz010_flow.JPG)
+![](quiz017_flow.JPG)
