@@ -36,7 +36,7 @@ def get_l3tt3r2(msg: str):
 ```
 
 ## Fig.1
-![](quiz010.png)
+![](quiz019.png)
 
-##Flowchart:
-![](quiz010_flow.JPG)
+## Boolean Circuit:
+![](quiz010_flow.jpg)
