@@ -35,21 +35,10 @@ print(test4)
 
 ```
 
-![](/Assets/Quiz018_Boolean.jpeg)
-
-| Input | Output |
-|-------|--------|
-| 0 0 0 | 0      |
-| 0 0 1 | 1      |
-| 0 1 0 | 1      |
-| 0 1 1 | 1      |
-| 1 0 0 | 1      |
-| 1 0 1 | 1      |
-| 1 1 0 | 1      |
-| 1 1 1 | 1      |
+![]()
 
 ## Fig.1
-![](quiz018.png)
+![](quiz23.png)
 
 ##Flowchart:
 ![](quiz010_flow.JPG)
