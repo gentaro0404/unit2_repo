@@ -38,7 +38,7 @@ print(test4)
 ![]()
 
 ## Fig.1
-![](quiz23.png)
+![](quiz023.png)
 
 ##Flowchart:
 ![](quiz010_flow.JPG)
