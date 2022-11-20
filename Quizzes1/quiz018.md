@@ -24,16 +24,28 @@ out = ABC+(A+B+C)+not(notA notB notC)
 
 ## :program
 ```.py
-import math
+def numbermatchs(l, s):
+    lily_position = 0
+    speed_m_per_s = s/100
+    seconds_passes = 0
+    matches = 0
+    while lily_position < l:
+        seconds_passes += 1
+        lily_position += speed_m_per_s
+        if seconds_passes % 5 == 0:
+            matches += 1
+            print(f"match is lit")
+            seconds_passes = 0
+    return matches
 
-number = int(input("Enter a number: "))
-x = -12
-
-
-while -12<=x<=15:
-    power = math.pow(10, x)
-    print(f"{number} * 10^{x} = {number*power}")
-    x += 1
+test1 = numbermatchs(100, 100)
+test2 = numbermatchs(250, 110)
+test3 = numbermatchs(500, 150)
+test4 = numbermatchs(12345, 123)
+print(test1)
+print(test2)
+print(test3)
+print(test4)
 
 ```
 
