@@ -50,7 +50,7 @@ print(test4)
 ```
 
 ## Fig.1
-![](quiz010.png)
+![](quiz018.png)
 
 ##Flowchart:
 ![](quiz010_flow.JPG)
