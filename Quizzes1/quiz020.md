@@ -23,4 +23,4 @@ def get_truth():
 ![](quiz020.png)
 
 ## Boolean Circuit:
-![](quiz010_flow.jpg)
+![](quiz020_fig.jpg)
