@@ -39,4 +39,4 @@ def get_l3tt3r2(msg: str):
 ![](quiz019.png)
 
 ## Boolean Circuit:
-![](quiz010_flow.jpg)
+![](quiz019_flow.jpg)
