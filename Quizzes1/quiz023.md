@@ -41,5 +41,5 @@ print(test4)
 ![](quiz023.png)
 
 ##Flowchart:
-![](quiz010_flow.JPG)
+![](quiz022.fig.jpg)
 
