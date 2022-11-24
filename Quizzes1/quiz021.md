@@ -31,5 +31,5 @@ get_Truth()
 ![](quiz021.png)
 
 ## Boolean Circuit:
-![](quiz010_flow.jpg)
+![](quiz021.fig.jpg)
 
