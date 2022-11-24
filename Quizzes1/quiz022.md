@@ -19,4 +19,4 @@ produce(5,3,2)
 ![](quiz022.png)
 
 ##Flowchart:
-![](quiz010_flow.JPG)
+![](quiz022.fig.jpg)
