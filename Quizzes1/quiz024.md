@@ -26,4 +26,4 @@ plt.show()
 ![](quiz024.png)
 
 ##Flowchart:
-![](quiz010_flow.JPG)
+![](quiz024_fig.jpg)
